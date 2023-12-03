@@ -1,8 +1,7 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
-import { Cursor, useTypewriter } from "react-simple-typewriter";
-import { motion, useInView, useAnimation } from "framer-motion";
+import { useTypewriter } from "react-simple-typewriter";
 const Hero = () => {
   const [text, count] = useTypewriter({
     words: ["Frontend React Developer"],
@@ -19,8 +18,7 @@ const Hero = () => {
             yogaraj
           </span>
           <br />a passionate
-          <span className="font-medium text-teal-400 px-2  ">{text}</span>
-          <Cursor cursorColor="pink" />
+          <span className="font-medium text-teal-400 px-2   ">{text}</span>
           <br />
           dedicated to crafting seamless and engaging user experiences. With a
           blend of creativity and technical expertise, I strive to bring ideas

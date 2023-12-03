@@ -52,7 +52,7 @@ const Nav = () => {
         </li>
       </ul>
       {/* Hamburger */}
-      <div onClick={handleClick} className="  cursor-pointer md:hidden z-10">
+      <div onClick={handleClick} className="   cursor-pointer md:hidden z-50">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       {/* mobileMenu */}
@@ -60,7 +60,7 @@ const Nav = () => {
         className={
           !nav
             ? "hidden"
-            : " absolute top-0 z-50 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : " absolute  top-0 left-0  w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl ">
