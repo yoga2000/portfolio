@@ -124,8 +124,10 @@ const Nav = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:rounded-r-xl  duration-300 bg-blue-600 ">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/yogaraj0310/"
             >
               <span> Linkedin</span>
               <FaLinkedin size={30} />
@@ -133,8 +135,10 @@ const Nav = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:rounded-r-xl  duration-300 bg-[#333333] ">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/yoga2000"
             >
               <span> Github</span>
               <FaGithub size={30} />
@@ -142,8 +146,10 @@ const Nav = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:rounded-r-xl  duration-300 bg-teal-500 ">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:rajyoga0310@gmail.com"
             >
               <span> Email</span>
               <HiOutlineMail size={30} />

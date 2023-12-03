@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Nav />
       <Hero />
       <About />

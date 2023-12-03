@@ -2,9 +2,9 @@ const Work = () => {
   const projects = [
     {
       id: 1,
-      title: "Project 1",
+      title: "Shopping Cart",
       description:
-        "Shopping cart with cart add and remove items,authentication protected routes and single product view",
+        "Shopping cart with cart add and remove cart items with cart section ,authentication protected routes and single product view",
       imageUrl:
         "https://img.freepik.com/free-photo/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.jpg?size=626&ext=jpg&ga=GA1.1.125146762.1701331629&semt=sph", // Replace with your image URL
       demoLink: "https://e-commerce-indol-six-54.vercel.app/",
@@ -12,7 +12,7 @@ const Work = () => {
     },
     {
       id: 2,
-      title: "Project 2",
+      title: "Chat-App",
       description:
         "A react chat app with a firebase firestore create a room and start chatting with your friends immediately",
       imageUrl:
@@ -20,13 +20,12 @@ const Work = () => {
       demoLink: "https://chatapp-gamma-two.vercel.app/",
       codeLink: "https://github.com/yoga2000/chatapp",
     },
-    // Add more projects as needed
   ];
 
   return (
     <div
       name="work"
-      className="h-screen w-full  flex justify-center items-center bg-[#0a1924]"
+      className="h-screen w-full     pb-32 flex justify-center items-center bg-[#0a1924]"
     >
       <div className="max-w-7xl mx-auto  w-full  px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl  text-center  underline decoration-pink-500 decoration-4   font-bold text-white mb-8">
