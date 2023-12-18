@@ -158,7 +158,7 @@ const Nav = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:rounded-r-xl  duration-300 bg-purple-500 ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://yogaraj-resume.tiiny.site/"
             >
               <span> Resume</span>
               <BsFillPersonLinesFill size={30} />

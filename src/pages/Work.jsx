@@ -4,7 +4,7 @@ const Work = () => {
       id: 1,
       title: "Shopping Cart",
       description:
-        "Shopping cart with cart add and remove cart items with cart section ,authentication protected routes and single product view",
+        "Shopping cart with cart add and remove cart items with cart section  and  user friendly single product view",
       imageUrl:
         "https://img.freepik.com/free-photo/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.jpg?size=626&ext=jpg&ga=GA1.1.125146762.1701331629&semt=sph", // Replace with your image URL
       demoLink: "https://e-commerce-indol-six-54.vercel.app/",
@@ -14,7 +14,7 @@ const Work = () => {
       id: 2,
       title: "Chat-App",
       description:
-        "A react chat app with a firebase firestore create a room and start chatting with your friends immediately",
+        "A react chat app with a firebase firestore with authentication and protected route create a room and start chatting with your friends immediately",
       imageUrl:
         "https://img.freepik.com/free-vector/human-hand-holding-mobile-phone-with-text-messages_74855-6531.jpg?size=626&ext=jpg&ga=GA1.1.125146762.1701331629&semt=ais",
       demoLink: "https://chatapp-gamma-two.vercel.app/",
